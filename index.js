@@ -13,7 +13,7 @@ bot.on('start', function () {
 });
 
 bot.on('message', function (data) {
-    
+
     if (data.type == "message" && data.username != "helpy") {
 
         var user = data.channel;
