@@ -2,7 +2,8 @@ var Bot = require('slackbots');
 
 // create a bot
 var settings = {
-    token: 'xoxb-259706768289-acmU2daEOln7BbPxyy30eI8P',
+    //token: 'xoxb-259706768289-acmU2daEOln7BbPxyy30eI8P',
+    token: process.env.BOT_API_KEY,
     name: 'helpy'
 };
 
